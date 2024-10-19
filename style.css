@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #353333;
+    color: #fff;
+}
+h1{
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #353333;
+}
+
+nav .logo img {
+    width: 150px;
+    height: 50px;
+}
+
+nav .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}   
+.shop-now-btn {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 60px;
+    width: 150px;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #dee3da;
+    width: 90%; /* Adjust the width as needed */
+    margin: 50px auto; 
+    font-size: 20px;
+}
+
+
+header img {
+    width: 550px;
+    height: 240px;
+    margin-bottom: 10px;
+    border-radius: 5PX;
+}
+
+hr {
+    border: none;
+    background-color: #353333;
+    width: 90%; /* Slightly shorter width */
+    margin: 30px auto; /* Centers the line and adds more space above and below */
+}
+
+
+.about-us {
+    padding: 30px;
+    text-align: center;
+    border-bottom: 1px solid #dee3da;
+    width: 90%; /* Adjust the width as needed */
+    margin: 50px auto; 
+    font-size: 20px;
+}
+.about-us .about-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the image and the about-text */
+    margin-top: 20px;
+    padding: 30px; /* Add the 'px' unit to padding for it to work */
+}
+
+.about-us .about-content .about-text {
+    margin-left: 80px; /* Adds some space between the image and text */
+}
+
+
+.about-us img {
+    width: 300px;
+}
+.about-us .about-content .about-text .small {
+    display: flex; /* Aligns the images horizontally */
+    gap: 55px; /* Adds space between the images */
+    margin-top: 10px; /* Adds some space between text and images */
+}
+
+.about-us .about-content .about-text .small img {
+    width: 300px; /* Adjust the width of the images */
+    height: 200px; /* Keeps the aspect ratio */
+    border-radius: 5px; /* Optional: Adds slightly rounded corners */
+}
+
+
+.about-us .about-text {
+    max-width: 600px;
+    text-align: left;
+    font-size: 20px;
+    font-family: initial;
+}
+h2{
+    text-align: center;
+}
+.design-section {
+    display: flex;
+    justify-content: center; /* Center the entire section horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 500px; /* Adjust the height as needed */
+    padding: 20px; /* Adds space inside the section */
+    position: relative;
+}
+
+.design-big-img img {
+    
+    height: 500px;
+    padding: 20px;
+}
+
+.design-gallery {
+    display: grid; /* Grid layout for the small images */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for images */
+    gap: 50px; /* Space between the images */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    padding: 20px; /* Adds space inside the gallery container */
+}
+
+
+.design-gallery img {
+    width: 130px; /* Width of each small image */
+    height: 130px; /* Height of each small image */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+}
+
+/* Contact Us Section */
+.contact-us {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-us h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.contact-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.contact-column h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-column ul li {
+    margin-bottom: 10px;
+}
+
+.contact-column ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.contact-column ul li a:hover {
+    color: #000;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    
+}
+
+
