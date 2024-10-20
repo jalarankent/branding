@@ -54,8 +54,7 @@ header {
     text-align: center;
     padding: 20px;
     border-bottom: 1px solid #dee3da;
-    width: 90%; /* Adjust the width as needed */
-    margin: 50px auto; 
+    width: 90%;
     font-size: 20px;
 }
 
@@ -70,8 +69,8 @@ header img {
 hr {
     border: none;
     background-color: #353333;
-    width: 90%; /* Slightly shorter width */
-    margin: 30px auto; /* Centers the line and adds more space above and below */
+    width: 90%; 
+    margin: 30px auto; 
 }
 
 
@@ -79,20 +78,20 @@ hr {
     padding: 30px;
     text-align: center;
     border-bottom: 1px solid #dee3da;
-    width: 90%; /* Adjust the width as needed */
+    width: 90%; 
     margin: 50px auto; 
     font-size: 20px;
 }
 .about-us .about-content {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between the image and the about-text */
+    gap: 20px; 
     margin-top: 20px;
-    padding: 30px; /* Add the 'px' unit to padding for it to work */
+    padding: 30px; 
 }
 
 .about-us .about-content .about-text {
-    margin-left: 80px; /* Adds some space between the image and text */
+    margin-left: 80px; 
 }
 
 
@@ -100,15 +99,15 @@ hr {
     width: 300px;
 }
 .about-us .about-content .about-text .small {
-    display: flex; /* Aligns the images horizontally */
-    gap: 55px; /* Adds space between the images */
-    margin-top: 10px; /* Adds some space between text and images */
+    display: flex; 
+    gap: 55px; 
+    margin-top: 10px; 
 }
 
 .about-us .about-content .about-text .small img {
-    width: 300px; /* Adjust the width of the images */
-    height: 200px; /* Keeps the aspect ratio */
-    border-radius: 5px; /* Optional: Adds slightly rounded corners */
+    width: 300px; 
+    height: 200px;
+    border-radius: 5px; 
 }
 
 
@@ -123,10 +122,10 @@ h2{
 }
 .design-section {
     display: flex;
-    justify-content: center; /* Center the entire section horizontally */
-    align-items: center; /* Center the content vertically */
-    height: 500px; /* Adjust the height as needed */
-    padding: 20px; /* Adds space inside the section */
+    justify-content: center; 
+    align-items: center; 
+    height: 500px; 
+    padding: 20px; 
     position: relative;
 }
 
@@ -137,19 +136,19 @@ h2{
 }
 
 .design-gallery {
-    display: grid; /* Grid layout for the small images */
-    grid-template-columns: repeat(3, 1fr); /* 3 columns for images */
-    gap: 50px; /* Space between the images */
-    justify-content: center; /* Center the grid horizontally */
-    align-items: center; /* Center the grid vertically */
-    padding: 20px; /* Adds space inside the gallery container */
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 50px; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
 }
 
 
 .design-gallery img {
-    width: 130px; /* Width of each small image */
-    height: 130px; /* Height of each small image */
-    object-fit: cover; /* Ensures images maintain aspect ratio */
+    width: 130px; 
+    height: 130px; 
+    object-fit: cover; 
 }
 
 /* Contact Us Section */
